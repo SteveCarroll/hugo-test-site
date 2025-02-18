@@ -1,6 +1,6 @@
 baseURL = "https://stevecarroll.github.io/hugo-test-site/"
 languageCode = "en-us"
-title = "Hugo Demo"
+title = "Hugo Test Site"
 theme = "ananke"
 
 [params]
