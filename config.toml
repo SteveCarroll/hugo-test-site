@@ -1,3 +1,16 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://stevecarroll.github.io/hugo-demo/"
+languageCode = "en-us"
+title = "Hugo Demo"
+theme = "ananke"
+
+[params]
+  homeInfoParams = { Title = "Welcome to My Hugo Site", Content = "This is a demo site using Hugo and the Ananke theme." }
+  ShowReadingTime = true
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+
+[[menu.main]]
+  identifier = "docs"
+  name = "Docs"
+  url = "/docs/"
+  weight = 10
